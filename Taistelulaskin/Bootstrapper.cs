@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Windows
+using System.Windows;
 using Caliburn.Micro;
 using Taistelulaskin.ViewModels;
 
 namespace Taistelulaskin
 {
-    public class BootStrapper : BootstrapperBase
+    public class Bootstrapper : BootstrapperBase
     {
-        public BootStrapper()
+        public Bootstrapper()
         {
             Initialize();
         }

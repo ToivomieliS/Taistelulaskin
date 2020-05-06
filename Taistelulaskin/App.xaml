@@ -1,12 +1,12 @@
 ﻿<Application x:Class="Taistelulaskin.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Taistelulaskin"
+             xmlns:local="clr-namespace:Taistelulaskin" >
     <Application.Resources>
     <ResourceDictionary>
         <ResourceDictionary.MergedDictionaries>
             <ResourceDictionary>
-                <local:BootStrapper x:Key="BootStrapper"/>
+                <local:Bootstrapper x:Key="Bootstrapper"/>
             </ResourceDictionary>
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
