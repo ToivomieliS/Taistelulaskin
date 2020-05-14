@@ -23,3 +23,9 @@ E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\net
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Taistelulaskin.dll
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Taistelulaskin.pdb
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Taistelulaskin.genruntimeconfig.cache
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\AirCalculatorView.g.cs
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\LandCalculatorView.g.cs
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\SeaCalculatorView.g.cs
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\AirCalculatorView.baml
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\LandCalculatorView.baml
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\SeaCalculatorView.baml

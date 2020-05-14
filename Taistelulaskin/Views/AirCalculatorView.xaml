@@ -1,13 +1,14 @@
-﻿<Window x:Class="Taistelulaskin.Views.ShellView"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Taistelulaskin.Views"
-        mc:Ignorable="d"
-        Title="ShellView" Height="450" Width="800">
+﻿<UserControl x:Class="Taistelulaskin.Views.AirCalculatorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Taistelulaskin.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Grid.ColumnDefinitions> <!--12x12 mallin ruudukko-->
+        <Grid.ColumnDefinitions>
+            <!--12x12 mallin ruudukko-->
             <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
@@ -39,17 +40,5 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-
-        <!--Napit välilehtien vaihtamiseen-->
-        
-        <Button x:Name="ShowGround" Grid.Column="1" Grid.Row="1">Maalaskuri</Button>
-        <Button x:Name="ShowAir" Grid.Column="2" Grid.Row="1">Ilmalaskuri</Button>
-        <Button x:Name="ShowSea" Grid.Column="3" Grid.Row="1">Merilaskuri</Button>
-        <Button x:Name="ShowQuit" Grid.Column="4" Grid.Row="1">Alkuvalikko</Button>
-
-        <!--Ikkuna laskurin välilehdille-->
-
-        <ContentControl x:Name="ActiveItem" Grid.Column="1" Grid.Row="2" Grid.RowSpan="11" Grid.ColumnSpan="9"/>
-
     </Grid>
-</Window>
+</UserControl>

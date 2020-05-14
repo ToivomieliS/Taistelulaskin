@@ -7,11 +7,35 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\AirCalculatorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\BlankView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LandCalculatorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SeaCalculatorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ShellView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\AirCalculatorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\BlankView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\LandCalculatorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SeaCalculatorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ShellView.xaml">
       <SubType>Designer</SubType>
     </Page>

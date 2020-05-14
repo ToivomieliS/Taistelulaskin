@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\App.xaml
-1-250345876
+51132886236
 
-61876478233
+14816875677
 202-1243344150
-Views\ShellView.xaml;
+Views\AirCalculatorView.xaml;Views\BlankView.xaml;Views\LandCalculatorView.xaml;Views\SeaCalculatorView.xaml;Views\ShellView.xaml;
 
-True
+False
 
