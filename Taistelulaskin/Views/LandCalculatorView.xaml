@@ -8,8 +8,26 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <!--12x12 mallin ruudukko-->
+            <!--30x30 mallin ruudukko-->
             <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
@@ -37,8 +55,133 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
+        
+        <!--Otsikkorivi 1-->
+
+        <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center">Osapuoli Punainen</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center">Osapuoli Sininen</TextBlock>
+        
+        <!--Otsikkorivi 7-->
+
+        <TextBlock Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center">Divisioonat</TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center">Prikaatit</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center">Prikaatit</TextBlock>
+        <TextBlock Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center">Divisioonat</TextBlock>
+        
+        <!--Punaisen pystypalkki 1-->
+
+        <TextBlock Grid.Column="1" Grid.Row="3">Kapinaprikaati</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="4">Kevyt</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="5">Standardi</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="6">Eliitti</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="7">Pommittavat ilmavoimat</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="8">Kevyt hävittäjälentolaivue</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="9">Moderni hävittäjälentolaivue</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="10">Kevyt pommikonelentolaivue</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="11">Moderni pommikonelentolaivue</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="12">Pommittavat merivoimat</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="13">Hävittäjälaivueet</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="14">Sukellusvenelaivueet</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="15">Risteilijät</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="16">Lentotukialusryhmät</TextBlock>
+
+        <TextBlock Grid.Column="1" Grid.Row="18">Voima yhteensä</TextBlock>
+        
+        <!--Punaisen pystypalkki 2 ja solut-->
+
+        <TextBox Grid.Column="2" Grid.Row="4" x:Name="RedLightDivision" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="5" x:Name="RedStandardDivision" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="6" x:Name="RedEliteDivision" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="8" x:Name="RedLightFighter" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="9" x:Name="RedFighter" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="10" x:Name="RedLightBomber" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="11" x:Name="RedBomber" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="13" x:Name="RedDestroyer" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="14" x:Name="RedSubmarine" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="15" x:Name="RedCruiser" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="2" Grid.Row="16" x:Name="RedCarrier" MinWidth="30"></TextBox>
+
+        <TextBlock Grid.Column="2" Grid.Row="18" x:Name="RedSum"></TextBlock>
+        
+        <!--Punaisen pystypalkki 3 ja solut-->
+
+        <TextBox Grid.Column="3" Grid.Row="3" x:Name="RedRebel" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="3" Grid.Row="4" x:Name="RedLightBrigade" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="3" Grid.Row="5" x:Name="RedStandardBrigade" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="3" Grid.Row="6" x:Name="RedEliteBrigade" MinWidth="30"></TextBox>
+        
+        <!--Sinisen pystypalkki 4 ja solut-->
+
+        <TextBox Grid.Column="4" Grid.Row="3" x:Name="BlueRebel" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="4" Grid.Row="4" x:Name="BlueLightBrigade" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="4" Grid.Row="5" x:Name="BlueStandardBrigade" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="4" Grid.Row="6" x:Name="BlueEliteBrigade" MinWidth="30"></TextBox>
+        
+        <!--Sinisen pystypalkki 5 ja solut-->
+
+        <TextBox Grid.Column="5" Grid.Row="4" x:Name="BlueLightDivision" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="5" x:Name="BlueStandardDivision" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="6" x:Name="BlueEliteDivision" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="8" x:Name="BlueLightFighter" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="9" x:Name="BlueFighter" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="10" x:Name="BlueLightBomber" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="11" x:Name="BlueBomber" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="13" x:Name="BlueDestroyer" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="14" x:Name="BlueSubmarine" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="15" x:Name="BlueCruiser" MinWidth="30"></TextBox>
+        <TextBox Grid.Column="5" Grid.Row="16" x:Name="BlueCarrier" MinWidth="30"></TextBox>
+
+        <TextBlock Grid.Column="5" Grid.Row="18" x:Name="BlueSum"></TextBlock>
+
+        <!--Sinisen pystypalkki 6-->
+
+        <TextBlock Grid.Column="6" Grid.Row="3">Kapinaprikaati</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="4">Kevyt</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="5">Standardi</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="6">Eliitti</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="7">Pommittavat ilmavoimat</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="8">Kevyt hävittäjälentolaivue</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="9">Moderni hävittäjälentolaivue</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="10">Kevyt pommikonelentolaivue</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="11">Moderni pommikonelentolaivue</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="12">Pommittavat merivoimat</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="13">Hävittäjälaivueet</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="14">Sukellusvenelaivueet</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="15">Risteilijät</TextBlock>
+        <TextBlock Grid.Column="6" Grid.Row="16">Lentotukialusryhmät</TextBlock>
+
+        <TextBlock Grid.Column="6" Grid.Row="18">Voima yhteensä</TextBlock>
+        
+        <!--Noppapalkki-->
+
+        <TextBlock Grid.Column="8" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center">Voimasuhteet ja noppa</TextBlock>
+        <TextBlock Grid.Column="8" Grid.Row="2" MinWidth="50" x:Name="RedSumForDie"></TextBlock>
+        <TextBlock Grid.Column="10" Grid.Row="2" MinWidth="50" x:Name="BlueSumForDie"></TextBlock>
+
+        <TextBlock Grid.Column="9" Grid.Row="2" MinWidth="50" x:Name="DieRoll"></TextBlock>
+        <Button Grid.Column="9" Grid.Row="3" x:Name="GenerateAResult">Arvo voittaja</Button>
+        
+
     </Grid>
 </UserControl>

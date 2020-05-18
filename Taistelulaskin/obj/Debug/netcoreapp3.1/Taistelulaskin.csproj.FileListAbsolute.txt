@@ -29,3 +29,5 @@ E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\net
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\AirCalculatorView.baml
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\LandCalculatorView.baml
 E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\SeaCalculatorView.baml
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\BlankView.g.cs
+E:\Projektit\Diginikkarit\Gittirepot\Taistelulaskin\Taistelulaskin\obj\Debug\netcoreapp3.1\Views\BlankView.baml
