@@ -45,7 +45,45 @@ namespace Taistelulaskin.ViewModels
         public int BlueSumForDie { get; set; }
         public int DieRoll { get; set; }
 
-        
+        public List<int> RedSide { get; set; }
+        public List<int> BlueSide { get; set; }
+
+        /*public LandCalculatorViewModel()
+        {
+            this.RedSide.Add(RedRebel);
+            this.RedSide.Add(RedLightBrigade);
+            this.RedSide.Add(RedStandardBrigade);
+            this.RedSide.Add(RedEliteBrigade);
+            this.RedSide.Add(RedLightDivision);
+            this.RedSide.Add(RedStandardDivision);
+            this.RedSide.Add(RedEliteDivision);
+            this.RedSide.Add(RedLightFighter);
+            this.RedSide.Add(RedFighter);
+            this.RedSide.Add(RedLightBomber);
+            this.RedSide.Add(RedBomber);
+            this.RedSide.Add(RedSubmarine);
+            this.RedSide.Add(RedDestroyer);
+            this.RedSide.Add(RedCruiser);
+            this.RedSide.Add(RedCarrier);
+            this.BlueSide.Add(BlueRebel);
+            this.BlueSide.Add(BlueLightBrigade);
+            this.BlueSide.Add(BlueStandardBrigade);
+            this.BlueSide.Add(BlueEliteBrigade);
+            this.BlueSide.Add(BlueLightDivision);
+            this.BlueSide.Add(BlueStandardDivision);
+            this.BlueSide.Add(BlueEliteDivision);
+            this.BlueSide.Add(BlueLightFighter);
+            this.BlueSide.Add(BlueFighter);
+            this.BlueSide.Add(BlueLightBomber);
+            this.BlueSide.Add(BlueBomber);
+            this.BlueSide.Add(BlueSubmarine);
+            this.BlueSide.Add(BlueDestroyer);
+            this.BlueSide.Add(BlueCruiser);
+            this.BlueSide.Add(BlueCarrier);
+
+        }*/
+
+
         public void GenerateAResult() 
         {
             int TotalForDie = RedSumForDie + BlueSumForDie;
