@@ -47,7 +47,14 @@ namespace Taistelulaskin.ViewModels
 
         
         public void GenerateAResult() 
-        { }
+        {
+            int TotalForDie = RedSumForDie + BlueSumForDie;
+            Random TheDice = new Random();
+            DieRoll = TheDice.Next(0,TotalForDie+1);
+            NotifyOfPropertyChange(()=>DieRoll);
+        }
+
+
 
 
     }
