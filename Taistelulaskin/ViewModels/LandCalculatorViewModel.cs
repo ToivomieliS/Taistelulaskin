@@ -45,13 +45,15 @@ namespace Taistelulaskin.ViewModels
         public int BlueSumForDie { get; set; }
         public int DieRoll { get; set; }
 
-        public List<int> RedSide { get; set; }
-        public List<int> BlueSide { get; set; }
+        public int RedSide { get; set; }
+        public int BlueSide { get; set; }
 
-        /*public LandCalculatorViewModel()
+        public LandCalculatorViewModel() //Tämä olisi konstruktori
         {
-            this.RedSide.Add(RedRebel);
-            this.RedSide.Add(RedLightBrigade);
+            RedSide += RedRebel;
+            NotifyOfPropertyChange(()=>RedSide);
+            BlueSide += BlueRebel;
+           /* this.RedSide.Add(RedLightBrigade);
             this.RedSide.Add(RedStandardBrigade);
             this.RedSide.Add(RedEliteBrigade);
             this.RedSide.Add(RedLightDivision);
@@ -79,9 +81,9 @@ namespace Taistelulaskin.ViewModels
             this.BlueSide.Add(BlueSubmarine);
             this.BlueSide.Add(BlueDestroyer);
             this.BlueSide.Add(BlueCruiser);
-            this.BlueSide.Add(BlueCarrier);
+            this.BlueSide.Add(BlueCarrier);*/
 
-        }*/
+        }
 
 
         public void GenerateAResult() 
