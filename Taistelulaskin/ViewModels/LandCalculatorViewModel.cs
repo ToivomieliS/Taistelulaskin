@@ -8,7 +8,18 @@ namespace Taistelulaskin.ViewModels
 {
     class LandCalculatorViewModel : Screen
     {
-        public int RedRebel { get; set; }
+        private int _RedRebel;
+        public int RedRebel {
+            get
+            {
+                return _RedRebel;
+            }
+            set 
+            {
+                _RedRebel = value;
+                NotifyOfPropertyChange(()=>RedRebel);
+            }
+        }
         public int RedLightBrigade { get; set; }
         public int RedStandardBrigade { get; set; }
         public int RedEliteBrigade { get; set; }
@@ -50,10 +61,10 @@ namespace Taistelulaskin.ViewModels
 
         public LandCalculatorViewModel() //Tämä olisi konstruktori
         {
-            RedSide += RedRebel;
+            /* RedSide += RedRebel;
             NotifyOfPropertyChange(()=>RedSide);
             BlueSide += BlueRebel;
-           /* this.RedSide.Add(RedLightBrigade);
+            this.RedSide.Add(RedLightBrigade);
             this.RedSide.Add(RedStandardBrigade);
             this.RedSide.Add(RedEliteBrigade);
             this.RedSide.Add(RedLightDivision);
@@ -92,6 +103,11 @@ namespace Taistelulaskin.ViewModels
             Random TheDice = new Random();
             DieRoll = TheDice.Next(0,TotalForDie+1);
             NotifyOfPropertyChange(()=>DieRoll);
+        }
+
+        public void SumUppTotals()
+        {
+
         }
 
 
